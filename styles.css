@@ -1,0 +1,1963 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#website-title {
+    padding: 1rem 1rem 1rem 10rem;
+    margin: 1rem 3rem 0rem 4rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: Modern Age;
+    font-size: 3rem;
+    color: #00b3ff;
+}
+
+#website-title2 {
+    color: red;
+}
+
+#website-title3 {
+    color: orange;
+}
+
+#website-title4 {
+    color: greenyellow;
+}
+
+#website-title5 {
+    color: rgb(255, 0, 157);
+}
+
+.navbar-custom {
+    padding: 1rem 1rem 0 3rem;
+    margin: 1rem 3rem 0 4rem;
+    font-family: "Wix Madefor Display", sans-serif;
+    background-image: url(static/bg3.avif);
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.navbar-custom .nav-link {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.4s ease;
+}
+
+.navbar-custom .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: red;
+    transition: width 0.4s linear;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #00b3ff;
+}
+
+.navbar-custom .nav-link:hover::before {
+    width: 100%;
+}
+
+/* Persistent underline for active link */
+.navbar-custom .nav-link.active::before {
+    width: 90%;
+}
+
+/* Hamburger menu color */
+.navbar-custom .navbar-toggler {
+    border-color: black;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+.main img {
+    border-radius: 10px;
+    margin-left: 4rem;
+    height: 40rem;
+    width: 88rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.about-school {
+    background-image: url("static/bg4.png");
+    background-size: contain;
+    padding: 2rem 6rem 0rem 5rem;
+}
+
+.about-title {
+    display: flex;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.about-desc {
+    font-size: 1.3rem;
+    font-family: Manrope;
+    text-align: justify;
+    color: rgb(42, 42, 42);
+}
+
+.shining-stars {
+    padding: 2rem 6rem 0rem 5rem;
+    background-image: url("static/bg2.png");
+    background-size: contain;
+}
+
+.shining-stars .stars-title {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.shining-stars .stars-title img {
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.shining-stars .title {
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding-bottom: 1.2rem;
+}
+
+
+.shining-stars .results {
+    display: flex;
+    gap: 5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.shining-stars .desc {
+    border: 3px solid rgb(220, 11, 206);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-size: 1.6rem;
+    padding-bottom: 1.2rem;
+}
+
+.shining-stars .desc img {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 23rem;
+}
+
+
+.shining-stars img:hover {
+    transform: scale(1.05);
+    transition: all 1s linear;
+}
+
+.sai-rajesh-sir {
+    background-image: url("static/bg3.avif");
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem 2rem 7rem;
+}
+
+.sai-rajesh-sir img {
+    border-radius: 10px;
+    height: 35rem;
+    width: 30rem;
+}
+
+.sai-rajesh-sir img:hover {
+    transform: scale(1.05);
+    transition: all 1s linear;
+}
+
+.trustee {
+    background-image: url("static/bg2.png");
+    background-size: cover;
+    padding: 2rem 6rem 0rem 5rem;
+}
+
+.trustee .trustee-title {
+    display: flex;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.trustee .trustee-title img {
+    height: 5rem;
+    width: 6rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.all-trustee {
+    display: flex;
+    gap: 1rem;
+}
+
+.trustee .trustee-desc {
+    border: 3px solid rgb(243, 2, 2);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-size: 2rem;
+}
+
+.trustee .trustee-desc img {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 20rem;
+}
+
+.trustee .trustee-desc img:hover {
+    transform: scale(1.05);
+    transition: all 1s linear;
+}
+
+
+.principals {
+    padding: 2rem 6rem 0rem 5rem;
+    background-image: url("static/bg2.png");
+    background-size: contain;
+}
+
+.principals .principals-title {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.principals .principals-title img {
+    height: 6.5rem;
+    width: 6rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.principals .high-principals-title,
+.primary-principals-title {
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding-bottom: 1.2rem;
+}
+
+.principals .high-principals {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 10rem 2rem 10rem;
+}
+
+.principals .high-principals-desc,
+.principals .primary-principals-desc {
+    border: 3px solid rgb(45, 34, 252);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-size: 1.7rem;
+}
+
+.principals .primary-principals-desc {
+    border: 3px solid rgb(43, 255, 23);
+}
+
+.principals .high-principals-desc img,
+.principals .primary-principals-desc img {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 23rem;
+}
+
+.principals .high-principals-desc img:hover,
+.principals .primary-principals-desc img:hover {
+    transform: scale(1.05);
+    transition: all 1s linear;
+}
+
+.principals .primary-principals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    background-image: url("static/bg2.png");
+    background-size: contain;
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+.map .map-title,
+.street-view .street-view-title {
+    display: flex;
+    gap: 1rem;
+    font-family: Cal Sans;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.map .map-title img,
+.street-view .street-view-title img {
+    height: 7rem;
+    width: 6rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.map iframe {
+    position: relative;
+    bottom: 4rem;
+}
+
+.street-view {
+    background-image: url("static/bg2.png");
+    background-size: contain;
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+.street-view iframe {
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.pledge {
+    padding: 2rem 3rem 0rem 4rem;
+}
+
+.pledge-title {
+    color: white;
+    background-color: #00b3ff;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.pledge-desc {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.4rem;
+    font-family: Manrope;
+    text-align: justify;
+    color: rgb(36, 36, 36);
+}
+
+
+.pledge .pledge-desc .desc {
+    padding-top: 2rem;
+}
+
+.anthem {
+    padding: 2rem 3rem 0rem 4rem;
+}
+
+.anthem-title {
+    color: white;
+    background-color: red;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.anthem-desc {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.4rem;
+    font-family: Manrope;
+    text-align: justify;
+    color: rgb(36, 36, 36);
+}
+
+.anthem .anthem-desc .desc {
+    padding-top: 2rem;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday {
+    padding: 2rem 3rem 0rem 4rem;
+}
+
+.monday-title,
+.tuesday-title,
+.wednesday-title,
+.thursday-title,
+.friday-title,
+.saturday-title {
+    color: white;
+    background-color: orange;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.monday-desc,
+.tuesday-desc,
+.wednesday-desc,
+.thursday-desc,
+.friday-desc,
+.saturday-desc {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-family: Manrope;
+    text-align: justify;
+    color: rgb(36, 36, 36);
+}
+
+.monday .monday-desc .desc,
+.tuesday .tuesday-desc .desc,
+.wednesday .wednesday-desc .desc,
+.thursday .thursday-desc .desc,
+.friday .friday-desc .desc,
+.saturday .saturday-desc .desc {
+    padding-top: 2rem;
+}
+
+.tuesday-title {
+    background-color: #00b3ff;
+}
+
+.wednesday-title {
+    background-color: rgba(32, 190, 1, 0.765)
+}
+
+.thursday-title {
+    background-color: rgb(255, 0, 157);
+}
+
+.friday-title {
+    background-color: orange;
+}
+
+.saturday-title {
+    background-color: #015f63;
+}
+
+.school-life-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 3rem 0rem 4rem;
+}
+
+.school-life-images img {
+    height: 22rem;
+    width: 21rem;
+}
+
+iframe {
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+.kailash-solanki {
+    font-family: Modern Age;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 2rem 3rem 0rem 3rem;
+}
+
+.kailash-solanki .name {
+    background-color: rgba(128, 128, 128, 0.308);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.school-life-images img:hover {
+    transform: scale(1.05);
+    transition: all 1s linear;
+}
+
+.school-timings,
+.exam-info,
+.student-rules,
+.parents-note,
+.student-mantra,
+.request-parents {
+    padding: 2rem 6rem 0rem 5rem;
+}
+
+.school-timings-title,
+.exam-info-title,
+.student-rules-title,
+.parents-note-title,
+.student-mantra-title,
+.request-parents-title {
+    color: white;
+    background-color: rgb(250, 181, 77);
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 2.6rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.school-timings-desc,
+.exam-info-desc,
+.student-rules-desc,
+.parents-note-desc,
+.student-mantra-desc,
+.request-parents-desc {
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-family: Manrope;
+    text-align: justify;
+    padding-top: 1rem;
+    color: rgb(74, 74, 74);
+}
+
+.exam-info-title {
+    background-color: teal;
+}
+
+.student-rules-title {
+    background-color: red;
+}
+
+.parents-note-title {
+    background-color: rgb(255, 0, 157);
+}
+
+.student-mantra-title {
+    background-color: royalblue;
+}
+
+.request-parents-title {
+    background-color: rgb(43, 147, 2);
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem 0rem 5rem;
+}
+
+.contact-us-desc {
+    font-family: Wix Madefor Display;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contact-us form {
+    padding-top: 2rem;
+    font-family: Wix Madefor Display;
+    font-size: 1.5rem;
+}
+
+.contact-us form label {
+    margin-bottom: 1rem;
+}
+
+.contact-us form input,
+.contact-us form select,
+.contact-us form textarea {
+    padding-left: 1rem;
+    width: 25rem;
+    border-radius: 5px;
+}
+
+.contact-us form button {
+    background-color: red;
+    color: white;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+
+.school-footer{
+    margin: 2rem 4rem 0rem 3rem;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    background-color: rgb(159, 255, 255);
+}
+
+.school-footer .contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.school-footer h2,h3{
+    font-size: 1.6rem;
+    font-weight: 0;
+}
+.school-main{
+    padding:1rem 0rem 0rem 13rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.school-main img{
+    height: 5rem;
+    width: 5rem;
+}
+
+
+.school-main .school-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.school-streams{
+    padding:0rem 0rem 0rem 17rem;
+}
+@media(max-width: 576px) {
+
+    /* General Resets */
+    body {
+        font-size: 100%;
+    }
+
+    #menu {
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    /* Navbar */
+    .navbar-custom {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    .navbar-custom .navbar-brand img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .navbar-custom .nav-link {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-custom .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .navbar-custom .nav-link:hover::before {
+        width: 60%;
+    }
+
+    /* Persistent underline for active link */
+    .navbar-custom .nav-link.active::before {
+        width: 60%;
+    }
+
+
+    /* Website Title */
+    #website-title {
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    /* Main Image */
+    .main img {
+        width: 93%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .about-school,
+    .shining-stars,
+    .trustee {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .about-title,
+    .shining-stars .stars-title {
+        font-size: 1.8rem;
+        display: flex;
+    }
+
+    .about-title img {
+        height: 2.4rem;
+        width: 1.7rem;
+    }
+
+    .shining-stars .stars-title img {
+        padding-top: 0.7rem;
+        height: 4rem;
+        width: 2.2rem;
+    }
+
+    .about-desc {
+        font-size: 1.17rem;
+    }
+
+    .shining-stars .title {
+        font-size: 1.6rem;
+    }
+
+    .shining-stars .results {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        gap: 1rem;
+        margin-left: 0.5rem;
+        flex-direction: column;
+    }
+
+    .results .desc img {
+
+        height: 16rem;
+        width: 100%;
+    }
+
+    .results .desc {
+        font-size: 1.3rem;
+    }
+
+    .sai-rajesh-sir {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .sai-rajesh-sir img {
+        border-radius: 10px;
+        height: 20rem;
+        width: 100%;
+    }
+
+
+    .trustee .trustee-title {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1.6rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .trustee .trustee-title img {
+        height: 3rem;
+        width: 2.5rem;
+        position: relative;
+        bottom: 0.3rem;
+    }
+
+    .all-trustee {
+        padding: 0rem 0.7rem 0rem 0.7rem;
+        flex-direction: column;
+    }
+
+    .trustee .trustee-desc {
+        font-size: 1.3rem;
+    }
+
+    .trustee .trustee-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .principals {
+        padding: 2rem 0rem 0rem 1rem;
+    }
+
+    .principals .principals-title {
+        padding-right: 6rem;
+        display: flex;
+        gap: 1rem;
+        font-size: 2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .principals .principals-title img {
+        height: 4rem;
+        width: 5rem;
+    }
+
+    .principals .high-principals-title,
+    .primary-principals-title {
+        gap: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .principals .high-principals,
+    .principals .primary-principals {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 1rem;
+    }
+
+    .principals .high-principals-desc,
+    .principals .primary-principals-desc {
+        font-size: 1.3rem;
+    }
+
+    .principals .high-principals-desc img,
+    .principals .primary-principals-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .map {
+        padding: 0rem 1rem 0rem 1.2rem;
+    }
+
+    .map .map-title,
+    .street-view .street-view-title {
+        font-size: 1.6rem;
+        padding-bottom: 0rem;
+    }
+
+    .map .map-title img,
+    .street-view .street-view-title img {
+        height: 4rem;
+        width: 3rem;
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .map iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .kailash-solanki {
+        font-size: 1.6rem;
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .kailash-solanki .name {
+        background-color: rgba(128, 128, 128, 0.308);
+        display: flex;
+        padding-left: 3.5rem;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .school-timings,
+    .exam-info,
+    .student-rules,
+    .parents-note,
+    .student-mantra,
+    .request-parents {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .school-timings-desc,
+    .exam-info-desc,
+    .student-rules-desc,
+    .parents-note-desc,
+    .student-mantra-desc,
+    .request-parents-desc {
+        font-size: 1.15rem;
+    }
+
+    .school-timings-title,
+    .exam-info-title,
+    .student-rules-title,
+    .parents-note-title,
+    .student-mantra-title,
+    .request-parents-title {
+        font-size: 1.6rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .contact-us form {
+        font-size: 1.3rem;
+    }
+
+    .contact-us form input,
+    .contact-us form select,
+    .contact-us form textarea {
+        width: 100%;
+    }
+
+    .contact-us form button {
+        font-size: 1.5rem;
+    }
+
+    .school-life-images {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .school-life-images img {
+        height: 22rem;
+        width: 20rem;
+    }
+
+    .pledge {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .pledge-title {
+        font-size: 1.8rem;
+    }
+
+    .pledge-desc {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .anthem {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .anthem-title {
+        font-size: 1.8rem;
+    }
+
+    .anthem-desc {
+        flex-direction: column;
+    }
+
+    .monday,
+    .tuesday,
+    .wednesday,
+    .thursday,
+    .friday,
+    .saturday {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .monday-title,
+    .tuesday-title,
+    .wednesday-title,
+    .thursday-title,
+    .friday-title,
+    .saturday-title {
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .monday-desc,
+    .tuesday-desc,
+    .wednesday-desc,
+    .thursday-desc,
+    .friday-desc,
+    .saturday-desc {
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        font-size: 1.3rem;
+        font-family: Manrope;
+        text-align: justify;
+        color: rgb(36, 36, 36);
+    }
+
+    .monday .monday-desc .desc,
+    .tuesday .tuesday-desc .desc,
+    .wednesday .wednesday-desc .desc,
+    .thursday .thursday-desc .desc,
+    .friday .friday-desc .desc,
+    .saturday .saturday-desc .desc {
+        padding-top: 1rem;
+    }
+
+    /* Responsive iFrames */
+    iframe {
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+}
+
+@media(min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 100%;
+    }
+
+    #menu {
+        font-size: 1.9rem;
+        margin-left: 21rem;
+    }
+
+    /* Navbar */
+    .navbar-custom {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    .navbar-custom .navbar-brand img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .navbar-custom .nav-link {
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-custom .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .navbar-custom .nav-link:hover::before {
+        width: 45%;
+    }
+
+    /* Persistent underline for active link */
+    .navbar-custom .nav-link.active::before {
+        width: 45%;
+    }
+
+
+    /* Website Title */
+    #website-title {
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    /* Main Image */
+    .main img {
+        width: 96%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .about-school,
+    .shining-stars,
+    .trustee {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .about-title,
+    .shining-stars .stars-title {
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-title img {
+        height: 4rem;
+        width: 3rem;
+    }
+
+    .shining-stars .stars-title img {
+        padding-top: 0.7rem;
+        height: 5rem;
+        width: 4rem;
+    }
+
+    .about-desc {
+        font-size: 1.35rem;
+    }
+
+    .shining-stars .title {
+        font-size: 2rem;
+    }
+
+    .shining-stars .results {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        gap: 1rem;
+        margin-left: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .results .desc img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .results .desc {
+        font-size: 1.5rem;
+        width: 48%;
+    }
+
+
+    .sai-rajesh-sir {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .sai-rajesh-sir img {
+        border-radius: 10px;
+        height: 25rem;
+        width: 50%;
+    }
+
+
+    .trustee .trustee-title {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .trustee .trustee-title img {
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+        bottom: 0.3rem;
+    }
+
+    .all-trustee {
+        padding: 0rem 0.7rem 0rem 0.7rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .trustee .trustee-desc {
+        font-size: 1.3rem;
+        width: 48%;
+    }
+
+    .trustee .trustee-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .principals {
+        padding: 2rem 0rem 0rem 1rem;
+    }
+
+    .principals .principals-title {
+        padding-right: 6rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .principals .principals-title img {
+        height: 6rem;
+        width: 5rem;
+    }
+
+    .principals .high-principals-title,
+    .primary-principals-title {
+        gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .principals .high-principals {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 1rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .principals .primary-principals {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 1rem;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .principals .high-principals-desc,
+    .principals .primary-principals-desc {
+        font-size: 1.3rem;
+        width: 40%;
+    }
+
+    .principals .high-principals-desc img,
+    .principals .primary-principals-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .map {
+        padding: 0rem 1rem 0rem 1.2rem;
+    }
+
+    .map .map-title,
+    .street-view .street-view-title {
+        font-size: 2.5rem;
+        padding-bottom: 0rem;
+    }
+
+    .map .map-title img,
+    .street-view .street-view-title img {
+        height: 5rem;
+        width: 4rem;
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .map iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .kailash-solanki {
+        font-size: 1.8rem;
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .kailash-solanki .name {
+        background-color: rgba(128, 128, 128, 0.308);
+        display: flex;
+        padding: 1.5rem;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .school-timings,
+    .exam-info,
+    .student-rules,
+    .parents-note,
+    .student-mantra,
+    .request-parents {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .school-timings-desc,
+    .exam-info-desc,
+    .student-rules-desc,
+    .parents-note-desc,
+    .student-mantra-desc,
+    .request-parents-desc {
+        font-size: 1.4rem;
+    }
+
+    .school-timings-title,
+    .exam-info-title,
+    .student-rules-title,
+    .parents-note-title,
+    .student-mantra-title,
+    .request-parents-title {
+        font-size: 2.3rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .contact-us form {
+        font-size: 1.5rem;
+    }
+
+    .contact-us-desc {
+        font-size: 1.5rem;
+    }
+
+    .contact-us form input,
+    .contact-us form select,
+    .contact-us form textarea {
+        width: 100%;
+    }
+
+    .contact-us form button {
+        font-size: 1.5rem;
+    }
+
+    .school-life-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .school-life-images img {
+        height: 22rem;
+        width: 48%;
+    }
+
+    .pledge {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .pledge-title {
+        font-size: 2.5rem;
+    }
+
+    .pledge-desc {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .anthem {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .anthem-title {
+        font-size: 2.5rem;
+    }
+
+    .anthem-desc {
+        flex-direction: column;
+    }
+
+    .monday,
+    .tuesday,
+    .wednesday,
+    .thursday,
+    .friday,
+    .saturday {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .monday-title,
+    .tuesday-title,
+    .wednesday-title,
+    .thursday-title,
+    .friday-title,
+    .saturday-title {
+        padding-left: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .monday-desc,
+    .tuesday-desc,
+    .wednesday-desc,
+    .thursday-desc,
+    .friday-desc,
+    .saturday-desc {
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        font-size: 1.5rem;
+        font-family: Manrope;
+        text-align: justify;
+        color: rgb(36, 36, 36);
+    }
+
+    .monday .monday-desc .desc,
+    .tuesday .tuesday-desc .desc,
+    .wednesday .wednesday-desc .desc,
+    .thursday .thursday-desc .desc,
+    .friday .friday-desc .desc,
+    .saturday .saturday-desc .desc {
+        padding-top: 1rem;
+    }
+
+    /* Responsive iFrames */
+    iframe {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 100%;
+    }
+
+    #menu {
+        display: none !important;
+    }
+
+    /* Navbar */
+    .navbar-custom {
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    .navbar-custom .navbar-brand img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .navbar-custom .nav-link {
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-custom .navbar-collapse {
+        padding-top: 1rem;
+    }
+
+    .navbar-custom .nav-link:hover::before {
+        width: 33%;
+    }
+
+    /* Persistent underline for active link */
+    .navbar-custom .nav-link.active::before {
+        width: 33%;
+    }
+
+
+    /* Website Title */
+    #website-title {
+        padding: 1rem;
+        margin: 1rem;
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    /* Main Image */
+    .main img {
+        width: 96%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .about-school,
+    .shining-stars,
+    .trustee {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .about-title,
+    .shining-stars .stars-title {
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-title img {
+        height: 4rem;
+        width: 3rem;
+    }
+
+    .shining-stars .stars-title img {
+        padding-top: 0.7rem;
+        height: 5rem;
+        width: 4rem;
+    }
+
+    .about-desc {
+        font-size: 1.35rem;
+    }
+
+    .shining-stars .title {
+        font-size: 2rem;
+    }
+
+    .shining-stars .results {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        gap: 1rem;
+        margin-left: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .results .desc img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .results .desc {
+        font-size: 1.5rem;
+        width: 32%;
+    }
+
+
+    .sai-rajesh-sir {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .sai-rajesh-sir img {
+        border-radius: 10px;
+        height: 25rem;
+        width: 50%;
+    }
+
+
+    .trustee .trustee-title {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .trustee .trustee-title img {
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+        bottom: 0.3rem;
+    }
+
+    .all-trustee {
+        padding: 0rem 0.7rem 0rem 0.7rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .trustee .trustee-desc {
+        font-size: 1.3rem;
+        width: 23%;
+    }
+
+    .trustee .trustee-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .principals {
+        padding: 2rem 0rem 0rem 1rem;
+    }
+
+    .principals .principals-title {
+        padding-right: 6rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .principals .principals-title img {
+        height: 6rem;
+        width: 5rem;
+    }
+
+    .principals .high-principals-title,
+    .primary-principals-title {
+        gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .principals .high-principals {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 1rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .principals .primary-principals {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 1rem;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .principals .high-principals-desc,
+    .principals .primary-principals-desc {
+        font-size: 1.3rem;
+        width: 35%;
+    }
+
+    .principals .high-principals-desc img,
+    .principals .primary-principals-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .map {
+        padding: 0rem 1rem 0rem 1.2rem;
+    }
+
+    .map .map-title,
+    .street-view .street-view-title {
+        font-size: 2.5rem;
+        padding-bottom: 0rem;
+    }
+
+    .map .map-title img,
+    .street-view .street-view-title img {
+        height: 5rem;
+        width: 4rem;
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .map iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .street-view iframe {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .kailash-solanki {
+        font-size: 2rem;
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .kailash-solanki .name {
+        background-color: rgba(128, 128, 128, 0.308);
+        display: flex;
+        padding: 1.5rem;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .school-timings,
+    .exam-info,
+    .student-rules,
+    .parents-note,
+    .student-mantra,
+    .request-parents {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .school-timings-desc,
+    .exam-info-desc,
+    .student-rules-desc,
+    .parents-note-desc,
+    .student-mantra-desc,
+    .request-parents-desc {
+        font-size: 1.4rem;
+    }
+
+    .school-timings-title,
+    .exam-info-title,
+    .student-rules-title,
+    .parents-note-title,
+    .student-mantra-title,
+    .request-parents-title {
+        font-size: 2.3rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-us {
+        flex-direction: row;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .contact-us form {
+        padding-top: 0rem;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .contact-us-desc {
+        font-size: 1.3rem;
+    }
+
+    .contact-us form input,
+    .contact-us form select,
+    .contact-us form textarea {
+        width: 100%;
+    }
+
+    .contact-us form button {
+        font-size: 1.5rem;
+    }
+
+    .school-life-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .school-life-images img {
+        height: 22rem;
+        width: 32%;
+    }
+
+    .pledge {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .pledge-title {
+        font-size: 2.5rem;
+    }
+
+    .pledge-desc {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .anthem {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .anthem-title {
+        font-size: 2.5rem;
+    }
+
+    .anthem-desc {
+        flex-direction: column;
+    }
+
+    .monday,
+    .tuesday,
+    .wednesday,
+    .thursday,
+    .friday,
+    .saturday {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .monday-title,
+    .tuesday-title,
+    .wednesday-title,
+    .thursday-title,
+    .friday-title,
+    .saturday-title {
+        padding-left: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .monday-desc,
+    .tuesday-desc,
+    .wednesday-desc,
+    .thursday-desc,
+    .friday-desc,
+    .saturday-desc {
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 2rem;
+        font-size: 1.5rem;
+        font-family: Manrope;
+        text-align: justify;
+        color: rgb(36, 36, 36);
+    }
+
+    .monday .monday-desc .desc,
+    .tuesday .tuesday-desc .desc,
+    .wednesday .wednesday-desc .desc,
+    .thursday .thursday-desc .desc,
+    .friday .friday-desc .desc,
+    .saturday .saturday-desc .desc {
+        padding-top: 1rem;
+    }
+
+    /* Responsive iFrames */
+    iframe {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1200px) {
+    #website-title {
+        font-size: 2.3rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+    .main img {
+        border-radius: 10px;
+        margin-left: 4rem;
+        height: 40rem;
+        width: 90.5%;
+    }
+
+     .results .desc img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .results .desc {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+   .sai-rajesh-sir img {
+        border-radius: 10px;
+        height: 27rem;
+        width: 40%;
+    }
+    .trustee .trustee-desc {
+        font-size: 1.3rem;
+        width: 45%;
+    }
+
+    .trustee .trustee-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .principals .high-principals{
+        gap: 3rem;
+    }
+
+    .principals .primary-principals{
+        gap: 2rem;
+    }
+    .principals .high-principals-desc,
+    .principals .primary-principals-desc {
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .principals .high-principals-desc img,
+    .principals .primary-principals-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .kailash-solanki {
+        font-size: 2.5rem;
+    }
+    .contact-us-desc{
+        font-size: 1.6rem;
+    }
+    .contact-us form {
+        padding-top: 0rem;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1370px) {
+    #website-title {
+        font-size: 2.8rem;
+        text-align: center;
+        padding: 1rem 7rem 1rem 3rem;
+    }
+
+    .main img {
+        border-radius: 10px;
+        margin-left: 4rem;
+        height: 40rem;
+        width: 90.5%;
+    }
+
+     .results .desc img {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .results .desc {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+   .sai-rajesh-sir img {
+        border-radius: 10px;
+        height: 27rem;
+        width: 40%;
+    }
+    .trustee .trustee-desc {
+        font-size: 1.3rem;
+        width: 45%;
+    }
+
+    .trustee .trustee-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+
+    .principals .high-principals{
+        gap: 3rem;
+    }
+
+    .principals .primary-principals{
+        gap: 2rem;
+    }
+    .principals .high-principals-desc,
+    .principals .primary-principals-desc {
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .principals .high-principals-desc img,
+    .principals .primary-principals-desc img {
+        height: 16rem;
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+    }
+    .kailash-solanki {
+        font-size: 2.5rem;
+    }
+    .contact-us-desc{
+        font-size: 1.6rem;
+    }
+    .contact-us form {
+        padding-top: 0rem;
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
+    .school-life-images img {
+        height: 22rem;
+        width: 24%;
+    }
+}

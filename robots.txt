@@ -1,0 +1,21 @@
+# robots.txt for https://tnlfs.netlify.app/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /thank-you/
+Disallow: /privacy-policy/
+
+Allow: /
+
+# Allow access to CSS, JS, and image files (important for rendering)
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://tnlfs.netlify.app/sitemap.xml
