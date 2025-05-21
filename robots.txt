@@ -1,7 +1,7 @@
-# robots.txt for https://tnlfs.netlify.app
+# robots.txt for https://thenewlittleflowerschool.com/
 
 User-agent: *
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://tnlfs.netlify.app/sitemap.xml
+Sitemap: https://thenewlittleflowerschool.com/sitemap.xml
